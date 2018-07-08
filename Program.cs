@@ -12,11 +12,17 @@ namespace linq
                                 from r in Ranks()
                                 select new { Suit = s, Rank = r };
 
-            foreach (var c in startingDeck)
+            var top = startingDeck.Take(26);
+            var bottom = startingDeck.Skip(26);
+            var shuffle = top.InterleaveSequenceWith(bottom);
+
+            foreach (var c in shuffle)
             {
                 Console.WriteLine(c);
             }
+
         }
+        
         static IEnumerable<string> Suits()
         {
             yield return "clubs";
