@@ -9,3 +9,8 @@ dotnet run
 ```
 
 Inside the project folder.
+If some dependecy is missing, you must run:
+```
+ dotnet restore
+```
+And **NuGet** will install it for you.
