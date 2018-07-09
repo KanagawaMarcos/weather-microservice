@@ -1,5 +1,5 @@
-# Command Line Interface - .NET Core
-An application that reads a text file, and echoes the contents of that text file to the console. The output to the console is paced to match reading it aloud. You can speed up or slow down the pace by pressing the ‘&lt;’ or ‘>’ keys.
+# Weather Microservice
+An ASP.NET Core microservice in a Docker container that response some random forecast to a given user location.
 
 ## How to use it:
 Simple [install Dotnet Core V2.1](https://www.microsoft.com/net/learn/get-started/linux/rhel) and run the command:
