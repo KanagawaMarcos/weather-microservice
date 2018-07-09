@@ -1,0 +1,14 @@
+C:\Users\msantos\Desktop\git\WeatherMicroservice\bin\Debug\netcoreapp2.1\WeatherMicroservice.deps.json
+C:\Users\msantos\Desktop\git\WeatherMicroservice\bin\Debug\netcoreapp2.1\WeatherMicroservice.runtimeconfig.json
+C:\Users\msantos\Desktop\git\WeatherMicroservice\bin\Debug\netcoreapp2.1\WeatherMicroservice.runtimeconfig.dev.json
+C:\Users\msantos\Desktop\git\WeatherMicroservice\bin\Debug\netcoreapp2.1\WeatherMicroservice.dll
+C:\Users\msantos\Desktop\git\WeatherMicroservice\bin\Debug\netcoreapp2.1\WeatherMicroservice.pdb
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.csprojAssemblyReference.cache
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.RazorAssemblyInfo.cache
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.RazorAssemblyInfo.cs
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.AssemblyInfoInputs.cache
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.AssemblyInfo.cs
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.dll
+C:\Users\msantos\Desktop\git\WeatherMicroservice\obj\Debug\netcoreapp2.1\WeatherMicroservice.pdb
