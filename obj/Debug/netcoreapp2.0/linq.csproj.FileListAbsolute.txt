@@ -8,3 +8,4 @@
 /home/marcos/git/linq/bin/Debug/netcoreapp2.0/linq.pdb
 /home/marcos/git/linq/obj/Debug/netcoreapp2.0/linq.dll
 /home/marcos/git/linq/obj/Debug/netcoreapp2.0/linq.pdb
+/home/marcos/git/linq/obj/Debug/netcoreapp2.0/linq.csprojAssemblyReference.cache
