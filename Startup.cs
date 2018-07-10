@@ -34,6 +34,8 @@ namespace WeatherMicroservice
 
                 var latitude = latString.TryParse();
                 var longitude = longString.TryParse();
+
+
                 if (latitude.HasValue && longitude.HasValue)
                 {
                     var forecast = new List<WeatherReport>();
@@ -44,12 +46,15 @@ namespace WeatherMicroservice
                     var json = JsonConvert.SerializeObject(forecast, Formatting.Indented);
                     context.Response.ContentType = "application/json; charset=utf-8";
 
+                    await context.Response.WriteAsync($"Retreving Weather for lat: {latitude}, long {longitude}");
+                    await context.Response.WriteAsync("\n");
                     await context.Response.WriteAsync(json);
 
+                }else{
+                    await context.Response.WriteAsync($"Please inform a latitude and longitude using GET. lat&long");
                 }
 
 
-                await context.Response.WriteAsync($"Retreving Weather for lat: {latitude}, long {longitude}");
             });
         }
     }
