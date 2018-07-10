@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msantos\\Desktop\\git\\WeatherMicroservice\\WeatherMicroservice.csproj",
+      "projectUniqueName": "c:\\Users\\msantos\\Desktop\\git\\weather-microservice\\WeatherMicroservice.csproj",
       "projectName": "WeatherMicroservice",
-      "projectPath": "C:\\Users\\msantos\\Desktop\\git\\WeatherMicroservice\\WeatherMicroservice.csproj",
+      "projectPath": "c:\\Users\\msantos\\Desktop\\git\\weather-microservice\\WeatherMicroservice.csproj",
       "packagesPath": "C:\\Users\\msantos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msantos\\Desktop\\git\\WeatherMicroservice\\obj\\",
+      "outputPath": "c:\\Users\\msantos\\Desktop\\git\\weather-microservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

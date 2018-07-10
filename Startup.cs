@@ -33,6 +33,14 @@ namespace WeatherMicroservice
 
                 var latitude = latString.TryParse();
                 var longitude = longString.TryParse();
+                if (latitude.HasValue && longitude.HasValue)
+                {
+                    var forecast = new List<WeatherReport>();
+                    for (var days = 1; days <= 5; days ++)
+                    {
+                        forecast.Add(new WeatherReport(latitude.Value, longitude.Value, days));
+                    }
+                }
 
                 await context.Response.WriteAsync($"Retreving Weather for lat: {latitude}, long {longitude}");
             });
