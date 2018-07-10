@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 namespace WeatherMicroservice
 {
@@ -40,7 +41,13 @@ namespace WeatherMicroservice
                     {
                         forecast.Add(new WeatherReport(latitude.Value, longitude.Value, days));
                     }
+                    var json = JsonConvert.SerializeObject(forecast, Formatting.Indented);
+                    context.Response.ContentType = "application/json; charset=utf-8";
+
+                    await context.Response.WriteAsync(json);
+
                 }
+
 
                 await context.Response.WriteAsync($"Retreving Weather for lat: {latitude}, long {longitude}");
             });
